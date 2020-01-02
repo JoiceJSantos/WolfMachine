@@ -21,8 +21,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.4" />
   <component name="ProjectId" id="1UqlVKpVUHmWt0fvVWuzwCVCQ0Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,9 +36,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/EasyPHP-DevServer-14.1VC9/data/localweb/projects/teste" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -76,8 +80,23 @@
       <workItem from="1576577392508" duration="25673000" />
       <workItem from="1576667233790" duration="17129000" />
       <workItem from="1576758507446" duration="13166000" />
-      <workItem from="1576849032633" duration="4823000" />
-      <workItem from="1576858228987" duration="427000" />
+      <workItem from="1576849032633" duration="3525000" />
+      <workItem from="1576852915767" duration="4629000" />
+      <workItem from="1576860925283" duration="606000" />
+      <workItem from="1576862345257" duration="9462000" />
+      <workItem from="1577120815986" duration="16527000" />
+      <workItem from="1577142050970" duration="3563000" />
+      <workItem from="1577190937652" duration="601000" />
+      <workItem from="1577219966103" duration="7865000" />
+      <workItem from="1577291223799" duration="12536000" />
+      <workItem from="1577309481997" duration="636000" />
+      <workItem from="1577367012048" duration="13459000" />
+      <workItem from="1577467303897" duration="2008000" />
+      <workItem from="1577557416472" duration="6423000" />
+      <workItem from="1577629236474" duration="9293000" />
+      <workItem from="1577711560871" duration="2642000" />
+      <workItem from="1577714427921" duration="4683000" />
+      <workItem from="1577963761055" duration="3197000" />
     </task>
     <servers />
   </component>
@@ -89,6 +108,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="263" y="18" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1576680450501" />
+    <state x="275" y="21" key="#Inspections" timestamp="1577292667471">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1577292667471" />
+    <state x="275" y="21" key="#Notifications" timestamp="1577221030294">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1577221030294" />
     <state x="390" y="0" key="#PHP" timestamp="1576680163600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -97,25 +124,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="91" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1576234628780" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576849397522">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576852653870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1576849397522" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1576852911486">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1576852653870" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1577220941384">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576852911486" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577220941384" />
     <state x="518" y="286" key="NewPhpFileDialog" timestamp="1576852512170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="518" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1576852512170" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1576680458294">
+    <state x="216" y="0" key="SettingsEditor" timestamp="1577221019405">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576680458294" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1576858245972">
+    <state x="216" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577221019405" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1577964208342">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576858245972" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577964208342" />
   </component>
 </project>

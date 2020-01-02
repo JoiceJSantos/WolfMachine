@@ -16,48 +16,53 @@
 </head>
 <body class="banda" >
 <header>
-
-    <nav  id="menu" class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <!--menu-->
+    <nav  id="menu" class="navbar navbar-expand-lg navbar-dark bg-dark">
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><img class="lobo-topo"  src="../imagens/logo_wolf_topo120px.png"></li>
                 <li class="nav-item active"><a class="page-link" href="../index.html">HOME</a></li>
                 <li class="nav-item"><a class="page-link" href="sobre.html">BANDA</a></li>
-                <!-- AGUARDANDO VÍDEOS PROFFISIONAIS DA BANDA<li class="nav-item"><a class="page-link" href="videos/videos.html">VÍDEOS</a></li>-->
+                <li class="nav-item"><a class="page-link" href="../videos/videos.html">VÍDEOS</a></li>
                 <li class="nav-item"><a class="page-link" href="../albuns/fotos.html">FOTOS</a></li>
                 <li class="nav-item"><a class="page-link" href="../contato/faleconosco.php">CONTATO</a></li>
             </ul>
 
         </div>
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="submit" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="button">
+            <a class="navbar-brand" href="#navbarSupportedContent"></a>
+            <button class=" navbar-toggler" type="submit" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=" navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="lobos">
 
-        <div class="logos">
             <a href="https://www.instagram.com/bandawolfmachine1933"target="_blank"><img src="../imagens/ic_instagram.png"></a>
             <a href="https://www.facebook.com/wolfmachineband" target="_blank"><img src="../imagens/ic_facebook.png"></a>
-            <a href="https://www.youtube.com/channel/UCgTQD3hsartcobx-XvChAfg" target="_blank"><img src="../imagens/ic_youtube.png"></a>
-            <img class="lobo-topo" src="../imagens/logo_wolf_topo.png">
+            <a href="https://www.youtube.com/channel/UCgTQD3hsartcobx-XvChAfg" target="_blank"><img class="logo" src="../imagens/ic_youtube.png"></a>
+            
+
         </div>
     </nav>
 
 
 </header>
-<div>
+<div class="conteudo">
     <section class="sobre">
         <div class="row">
                 <div class="col-md-7">
                     <h2 class="text-uppercase main-title text-center"><span style="color: #fff">A Banda</span></h2>
                     <p class="historia">
                         <p>A banda WOLF MACHINE foi formada em fevereiro do ano de 2014 na cidade de Belo Horizonte-MG -
-                            Brasil. Foi idealizada pelo integrante <a>DIEGO BAMBIRRA</a>, guitarrista veterano com passagem em bandas de blues,
-                            rock e punk, que recrutou seu amigo de outros projetos, o baixista <a onmousemove="mudaFoto('')"onmouseout="mudaFoto('../imagens/lobo_separado.png')">WANDERSON
-                                “WANX DAMIEN</a>”. </p>
+                            Brasil. Foi idealizada pelo integrante <a onmousemove="mudaFoto('../imagens/diego.jpg')"onmouseout="mudaFoto('../imagens/lobo_separado.png')"><span>DIEGO
+                        BAMBIRRA</span></a>, guitarrista veterano com passagem em bandas de blues, rock e punk, que recrutou seu amigo de outros projetos, o baixista
+                        <a onmousemove="mudaFoto('../imagens/wanks.jpg')"onmouseout="mudaFoto('../imagens/lobo_separado.png')"><span>WANDERSON
+                            “WANX DAMIEN</span></a>”. </p>
                         <p>
-                            Para a bateria recrutaram <a onmousemove="mudaFoto('../imagens/rod.jpg')"onmouseout="mudaFoto('../imagens/lobo_separado.png')">RODRIGO
-                            NEVES</a>, ativo desde os anos 80 e mais conhecido pela banda Mutilator, com a qual
+                            Para a bateria recrutaram <a onmousemove="mudaFoto('../imagens/rod.jpg')"onmouseout="mudaFoto('../imagens/lobo_separado.png')"><span>RODRIGO
+                            NEVES</span></a>, ativo desde os anos 80 e mais conhecido pela banda Mutilator, com a qual
                             gravou a demo Grave Desecration(1985) e os álbuns Immortal Force(1987), Into the Strange(1988),
                             ambos coletâneas pela Cogumelo Remasters.
                         </p>
@@ -66,7 +71,7 @@
                         </p>
                         <p>
                             Em 2015 Renato deixa a banda, dando lugar ao vocalista <a onmousemove="mudaFoto('../imagens/joao.jpg')"
-                                onmouseout="mudaFoto('../imagens/lobo_separado.png')">JOÃO AMARAL</a>, que está na estrada desde os anos 90 com
+                                onmouseout="mudaFoto('../imagens/lobo_separado.png')"><span>JOÃO AMARAL</span></a>, que está na estrada desde os anos 90 com
                             passagens por bandas de rock, blues, hard e heavy.
                         </p>
                         <p>
@@ -76,7 +81,7 @@
                         </p>
                         <p>
                             Para reforçar as fileiras, em 2017 foi recrutado o guitarrista <a onmousemove="mudaFoto('../imagens/will.jpg')"
-                                onmouseout="mudaFoto('../imagens/lobo_separado.png')">WILL MENDES</a>, também passou por várias bandas de vários
+                                onmouseout="mudaFoto('../imagens/lobo_separado.png')"><span>WILL MENDES</span></a>, também passou por várias bandas de vários
                             estilos
                         </p>
                         <p>
@@ -87,8 +92,8 @@
                     </p>
 
                 </div>
-                <div class="col-md-3">
-                    <img id="loboMoto" class="figure-img" src="../imagens/lobo_separado.png">
+                <div class="col-md-5">
+                    <img id="loboMoto" class="img-fluid" src="../imagens/lobo_separado.png">
                 </div>
 
         </div>
@@ -98,7 +103,7 @@
 <footer class="mt-5">
     <div class="container">
          <div class="row justify-content-center">
-             <div class="col-xs-12 col-md-6 d-none d-md-block text-center">
+             <div class="col-xs-12 col-md-6  text-center">
                  <p>&copy;Copyright-Joice Santos</p>
                 <p class="pages"><a href="https://www.facebook.com/joice.santos.5832" target="_blank">Facebook</a>|
                     <a href="https://www.linkedin.com/in/joice-santos-a483036a" target="_blank">Linkedin</a></p>

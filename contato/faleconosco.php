@@ -21,19 +21,17 @@ $msg = 0;
 
     <title>Wolf Machine</title>
 </head>
+
+
 <body >
-<?php
-if($msg == 'enviado'): ?>
-    <h1>Mensagem enviada, agradecemos seu contato!</h1>
-<?php
-else: ?>
 
 <header>
 
-    <nav  id="menu" class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav  id="menu" class="navbar navbar-expand-lg navbar-dark bg-dark">
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><img class="lobo-topo"  src="../imagens/logo_wolf_topo120px.png"></li>
                 <li class="nav-item active"><a class="page-link" href="../index.html">HOME</a></li>
                 <li class="nav-item"><a class="page-link" href="../sobre/sobre.html">BANDA</a></li>
                 <li class="nav-item"><a class="page-link" href="../videos/videos.html">VÍDEOS</a></li>
@@ -42,55 +40,72 @@ else: ?>
             </ul>
 
         </div>
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="submit" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="button">
+            <a class="navbar-brand" href="#navbarSupportedContent"></a>
+            <button class=" navbar-toggler" type="submit" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=" navbar-toggler-icon"></span>
+            </button>
+        </div>
 
-        <div class="logos">
+        <div class="lobos">
+
             <a href="https://www.instagram.com/bandawolfmachine1933"target="_blank"><img src="../imagens/ic_instagram.png"></a>
             <a href="https://www.facebook.com/wolfmachineband" target="_blank"><img src="../imagens/ic_facebook.png"></a>
-            <a href="https://www.youtube.com/channel/UCgTQD3hsartcobx-XvChAfg" target="_blank"><img src="../imagens/ic_youtube.png"></a>
-            <img class="lobo-topo" src="../imagens/logo_wolf_topo.png">
+            <a href="https://www.youtube.com/channel/UCgTQD3hsartcobx-XvChAfg" target="_blank"><img class="logo" src="../imagens/ic_youtube.png"></a>
+            
+
         </div>
     </nav>
 </header>
-<div class="container">
-    <div class="py-5  text-center">
-        <img class="d-block mx-auto mb-4" src="../imagens/logo_contato.png" alt="" width="89" height="72">
-        <h2>Fale conosco!</h2>
-        <p class="lead mb-4">Contrate um show com o melhor do CLÁSSIC ROCK! </p>
-        <section id="contato" tabindex="-1">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-5">
-                        <form id="formgroup" method="post" action="contato.php" class="form">
-                            <div class="form-group mb-4">
 
-                                <input class="form-control" type="text" id="nome" name="nome" placeholder="Nome" required minlength="2">
-                            </div>
-                            <div class="form-group mb-4">
-                                <input type="email" name="email" id="email" class="form-control" placeholder="E-mail" required>
-                            </div>
-                            <div class="form-group mb-4">
-                                <textarea type="text" name="mensagem" id="mensagem" class="form-control" cols="30" rows="10" placeholder="Deixe sua mensagem." required></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button  class="btn  btn-success">Enviar</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+<div class=" container">
+    <!--menu-->
+        <div id="chamada" class=" mt-5 text-center">
+            <img class="mb-4" src="../imagens/logo_contato.png" width="89" height="72">
+            <div class="">
+                <h2>Fale conosco!</h2>
+                <p class=" mb-4">Contrate um show com o melhor do CLÁSSIC ROCK! </p>
             </div>
-        </section>
+        </div>
 
-    </div>
+        <div id="form" class="contato">
+                    <div class=" formulario row justify-content-center">
+                        <div class=" col-lg-8 mt-5 ml-0">
+
+                            <form id="formgroup" method="post" action="contato.php" class="" >
+                                <div class="form-group mb-4">
+
+                                    <input class="form-control" type="text" id="nome" name="nome" placeholder="Nome"
+                                           required minlength="2">
+                                </div>
+                                <div class="form-group mb-4">
+                                    <input type="email" name="email" id="email" class="form-control"
+                                           placeholder="E-mail"
+                                           required>
+                                </div>
+                                <div class="form-group mb-4">
+                            <textarea type="text" name="mensagem" id="mensagem" class="form-control" cols="30"
+                                      rows="10" placeholder="Deixe sua mensagem." required></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button class="col-lg-12">Enviar</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+        </div>
+
+
+</div>
+
 
     <footer class="container-fluid mt-5">
         <div class="container">
             <div class=" row justify-content-center">
-                <div class="col-xs-12 col-md-6 d-none d-md-block text-center">
+                <div class="col-xs-12 col-md-6  text-center">
                     <p>&copy;Copyright-Joice Santos</p>
                     <p class="pages"><a href="https://www.facebook.com/joice.santos.5832" target="_blank">Facebook</a>|
                         <a href="https://www.linkedin.com/in/joice-santos-a483036a" target="_blank">Linkedin</a></p>
@@ -100,7 +115,7 @@ else: ?>
             </div>
         </div>
     </footer>
-    <?php endif; ?>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
