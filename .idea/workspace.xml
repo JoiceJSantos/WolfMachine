@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d920615-9e05-4a4c-b203-d716af362299" name="Default Changelist" comment="" />
+    <list default="true" id="4d920615-9e05-4a4c-b203-d716af362299" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/medias.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/teste.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wolfmachine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wolfmachine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albuns/fotos.html" beforeDir="false" afterPath="$PROJECT_DIR$/albuns/fotos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contato/contato.php" beforeDir="false" afterPath="$PROJECT_DIR$/contato/contato.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contato/faleconosco.php" beforeDir="false" afterPath="$PROJECT_DIR$/contato/faleconosco.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagens/diego.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sobre/diego.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagens/joao.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagens/rod.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagens/wanks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagens/will.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sobre/sobre.html" beforeDir="false" afterPath="$PROJECT_DIR$/sobre/sobre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/videos.html" beforeDir="false" afterPath="$PROJECT_DIR$/videos/videos.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -44,6 +63,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projetos\wolfmachine\js" />
       <recent name="C:\Projetos\wolfmachine" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projetos\Wolfmachine\contato" />
+      <recent name="C:\Projetos\Wolfmachine" />
+      <recent name="C:\Projetos\Wolfmachine\fotos" />
+      <recent name="C:\Projetos\Wolfmachine\css" />
+      <recent name="C:\Projetos\Wolfmachine\videos" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -97,6 +123,13 @@
       <workItem from="1577711560871" duration="2642000" />
       <workItem from="1577714427921" duration="4683000" />
       <workItem from="1577963761055" duration="3197000" />
+      <workItem from="1577973964301" duration="9298000" />
+      <workItem from="1578053917877" duration="8544000" />
+      <workItem from="1578315915350" duration="12734000" />
+      <workItem from="1578389698060" duration="14660000" />
+      <workItem from="1578419194217" duration="6067000" />
+      <workItem from="1578485342299" duration="12858000" />
+      <workItem from="1578563899499" duration="26421000" />
     </task>
     <servers />
   </component>
@@ -124,25 +157,41 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="91" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1576234628780" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576852653870">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578580872059">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1576852653870" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1577220941384">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1578580872059" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1578418735119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577220941384" />
-    <state x="518" y="286" key="NewPhpFileDialog" timestamp="1576852512170">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578418735119" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1578396548222">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1576852512170" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578396548222" />
+    <state x="518" y="286" key="NewPhpFileDialog" timestamp="1578654455449">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1578654455449" />
     <state x="216" y="0" key="SettingsEditor" timestamp="1577221019405">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="216" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577221019405" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1577964208342">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1578418816997">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577964208342" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578418816997" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1578315915146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578315915146" />
+    <state x="326" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578332350431">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="326" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1578332350431" />
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578418750019">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1578418750019" />
   </component>
 </project>

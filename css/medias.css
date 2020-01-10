@@ -1,0 +1,201 @@
+/*------------------------------Formatação do menu-------------------------------*/
+@media screen and (max-device-width: 450px) {
+    .menuBurguer {
+        margin-bottom: 20px;
+    }
+    ul.navbar-nav {
+        margin-left: 10px;
+    }
+    .redes.nav-item img{
+        width: 20px;
+        height: 20px;
+    }
+    .menu {
+        width: 90%;
+        height: 80px!important;
+
+    }
+    .container.navbar-expand-xl.navbar-dark{
+        float: left;
+        margin-left: -10px;
+    }
+    .titulo h3 {
+        font-size: 10pt;
+        text-shadow: none;
+        text-align: left;
+        margin-left: 5px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        display: none;
+    }
+    #rotativo{
+        width: 95% !important;
+    }
+    .lobo-solto{
+        width: 86%;
+    }
+    .boxVideo iframe{
+        width: 86%;
+    }
+    .container h3{
+        font-size: 10pt;
+    }
+    .gallery-container{
+        width: 70%;
+        height: 80%;
+        margin-left: 40px;
+
+    }
+    .text-info{
+        font-size: 8pt;
+
+    }
+    .title{
+        font-size: 12pt;
+        text-align: center;
+
+    }
+    .next, .prev{
+        top: 40%;
+        margin-left:-20px ;
+        padding: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+
+    }
+    .next{
+        right: 30px;
+    }
+    .prev{
+        left: 40px;
+    }
+}
+@media screen and (max-device-width: 800px) {
+     p span {
+         text-decoration: none;
+     }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 760px) {
+    #loboMoto{
+        display: none;
+    }
+
+}
+
+@media screen and (min-device-width: 451px) and (max-device-width: 699px) {
+    .menu {
+        min-height: 83px !important;
+    }
+
+
+}
+@media screen and (min-device-width: 700px)and (orientation: landscape){
+    .menu {
+        height: 75px !important;
+
+    }
+}
+@media screen and (min-device-width: 750px) and (max-device-width: 772px) {
+    #loboMoto{
+        display: none;
+    }
+}
+@media screen and (max-device-width: 750px) and (orientation: landscape){
+    #chamada img{
+        width: 70px;
+        height:56px ;
+    }
+    .info h2{
+        font-size:14pt ;
+    }
+    .info p{
+        font-size: 8pt;
+    }
+}
+
+@media screen and (min-device-width: 750px){
+    .menu {
+        height: 85px !important;
+
+    }
+    #loboMoto{
+        width: 40%;
+        margin-top: 120px;
+    }
+    .next, .prev{
+        top: 40%;
+        margin-left:-20px ;
+        padding: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+
+    }
+    .gallery-container{
+        width: 70%;
+        height: 80%;
+        left: -3%;
+
+    }
+}
+@media screen and (min-device-width: 750px)and (orientation: landscape){
+    .menu {
+        height: 85px !important;
+
+    }
+    #loboMoto{
+        width: 50%;
+
+    }
+}
+@media screen and (min-device-width: 1024px)and (max-device-width: 1399px){
+    .menu {
+        min-height: 83px !important;
+    }
+    #loboMoto{
+        width: 30%;
+        padding-top: 130px;
+
+    }
+    .lobo-topo img{
+        margin-left: 250px;
+    }
+
+}
+@media screen and (min-device-width: 1400px) {
+    #loboMoto{
+        width: 30%;
+    }
+
+}
+
+@media screen and (min-device-width: 1650px) {
+    .sobre {
+        min-height: 700px;
+    }
+
+    .col-md-7 {
+        height: 700px;
+    }
+    #loboMoto{
+        width: 25%;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-device-width: 800px) and(orientation: landscape) {
+    .formulario {
+        width: 300px;
+        margin-right: auto;
+
+    }
+    #chamada {
+        width: 200px;
+        margin-left: -15px;
+        margin-right:25px;
+
+    }
+
+}
+
+
+
